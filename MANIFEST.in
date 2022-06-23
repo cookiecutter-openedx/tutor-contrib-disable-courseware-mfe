@@ -1,0 +1,2 @@
+recursive-include tutordisable_courseware_mfe/patches *
+recursive-include tutordisable_courseware_mfe/templates *
