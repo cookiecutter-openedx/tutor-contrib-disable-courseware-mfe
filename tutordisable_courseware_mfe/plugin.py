@@ -25,10 +25,12 @@ config = {
 }
 
 ################# Initialization tasks
-hooks.Filters.COMMANDS_INIT.add_item((
-     "myservice",
-     ("disable_courseware_mfe", "tasks", "lms", "disable_courseware_mfe"),
-    ))
+hooks.Filters.COMMANDS_INIT.add_item(
+    (
+        "lms",
+        ("disable_courseware_mfe", "tasks", "lms", "init"),
+    )
+)
 
 ################# Docker image management
 # To build an image with `tutor images build myimage`, add a Dockerfile to templates/disable_courseware_mfe/build/myimage and write:
