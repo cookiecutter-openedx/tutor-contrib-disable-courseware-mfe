@@ -12,7 +12,7 @@ Installation
 
 ::
 
-    pip install git+https://github.com/myusername/tutor-contrib-disable_courseware_mfe
+    pip install git+https://github.com/myusername/tutor-contrib-disable-courseware-mfe
 
 Usage
 -----

@@ -25,12 +25,12 @@ ABOUT = load_about()
 
 
 setup(
-    name="tutor-contrib-disable_courseware_mfe",
+    name="tutor-contrib-disable-courseware-mfe",
     version=ABOUT["__version__"],
-    url="https://github.com/myusername/tutor-contrib-disable_courseware_mfe",
+    url="https://github.com/myusername/tutor-contrib-disable-courseware-mfe",
     project_urls={
-        "Code": "https://github.com/myusername/tutor-contrib-disable_courseware_mfe",
-        "Issue tracker": "https://github.com/myusername/tutor-contrib-disable_courseware_mfe/issues",
+        "Code": "https://github.com/myusername/tutor-contrib-disable-courseware-mfe",
+        "Issue tracker": "https://github.com/myusername/tutor-contrib-disable-courseware-mfe/issues",
     },
     license="AGPLv3",
     author="Lawrence McDaniel",
