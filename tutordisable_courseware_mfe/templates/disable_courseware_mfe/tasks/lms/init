@@ -2,5 +2,5 @@
 # see: https://discuss.openedx.org/t/disabling-the-learning-mfe-in-maple-slightly-misleading-documentation/6320
 
 echo "Disabling courseware micro front-end"
-./manage.py lms waffle_flag course_home.course_home_use_legacy_frontend --everyone
-./manage.py lms waffle_flag courseware.use_legacy_frontend --everyone
+./manage.py lms waffle_flag course_home.course_home_use_legacy_frontend --create --everyone
+./manage.py lms waffle_flag courseware.use_legacy_frontend --create --everyone
